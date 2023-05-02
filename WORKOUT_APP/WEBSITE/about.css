@@ -1,0 +1,83 @@
+body
+{
+    background-image: url("R.jpg");
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+span
+{
+    color: #ea1538;
+}
+
+
+nav ul li
+{
+    display: inline-block;
+    list-style-type: none;
+    padding: 11px 20px;
+}
+
+li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+h2
+{
+    color: white;
+    
+}
+ 
+li a:hover
+{
+    color: rgb(222, 99, 99);
+    border-bottom: rgb(222, 99, 99) 2px solid;
+}
+
+li:hover
+{
+    transform: scale(1.3);
+}
+
+i
+{
+    padding-right: 10px;
+}
+
+.logo
+{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+i:hover , .logo:hover
+{
+    transform: scale(1.1);
+}
+
+h1
+{
+    color: #fff;
+    text-align: center;
+}
+
+p
+{
+    color: #fff;
+    line-height:50px;
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 30px;
+}
+
+span
+{
+    color: red;
+}

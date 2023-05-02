@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.95);
+	font-family: Inter, sans-serif;
+}
+.container{
+    width: 90%;
+    background-color: black;
+    margin: 0 auto;
+    padding: 30px;
+}
+header{
+    width: 100%;
+    display: flex;
+    color: grey;
+}
+img{
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    animation: myphoto infinite 1s;
+    padding: 2px;
+    margin: 90px 40px 0 20px;
+}
+img:hover{
+    animation: paused;
+}
+@keyframes myphoto {
+   50%{
+    border: 3px solid orange;
+   } 
+   100%{
+    border: 5px solid rgba(255, 166, 0, 0.5);
+   }
+}
+.firstname{
+    color: orange;
+    font-size: 60px;
+    margin: 30px 0 0 0;
+    font-weight: 700;
+ }
+.secondname{
+    color: aliceblue;
+    font-size: 32px;
+    margin: -10px 0 20px 30px;
+    font-weight: 700;
+}
+.stack{
+    color:aliceblue;
+    font-size: 21px;
+}
+.jobdescription{
+    padding: 10px 10px 10px 0;
+    line-height: 23px;
+}
+.download{
+    padding: 10px 10px 30px 0;
+}
+.download a{
+    color: white;
+}
+.download a:hover, .projects a:hover{
+    color:orange;
+}
+.download a:link, a:visited {
+    background-color: rgb(235, 129, 129);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0 0 0;
+  }
+  
+.download a:hover, a:active {
+    background-color: rgb(236, 232, 169);
+    color: rgb(255, 102, 102);
+  }
+.mainbody{
+    color: grey;
+    display: flex;
+    width: 100%;
+    line-height: 23px;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+.mainbody div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.leftside{
+    width:40%;
+    margin-top: 15px;
+}
+.rightside{
+    width:40%;
+    margin-top: 15px;
+}
+.mainbody p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.projects a{
+    color: grey;
+    text-decoration: underline white;
+}
+h2{
+    color: orange;
+    padding-bottom: 20px;
+}
+ul{
+    list-style: inside;
+    line-height: 30px;
+}
+hr{
+    width:80%;
+    margin-left: 10%;
+    border-color: grey;
+}
+.hobby ul,.tech ul,.strength ul{
+    list-style:none;
+}
+footer{
+    display: flex;
+    color: grey;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 30px;
+}
+footer .contact, footer .social{
+    width: 100%;
+    padding-left: 60px;
+}
+footer a{
+    color: grey;
+    text-decoration: none;
+}
+footer a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.fa-brands{
+    color: white;
+    width: 20px;
+}
+.fa-solid{
+    color: white;
+    width: 20px;
+}
+@media screen and (orientation:portrait) {
+    .container{
+        width: 100%;
+    }
+    header,.mainbody,footer{
+        display: block;
+    }
+    .leftside, .rightside{
+        width: 100%;
+    }
+    img{
+        display: block;
+        margin: auto;
+    }
+    .firstname{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    .secondname{
+        display: block;
+        text-align: center;  
+        margin: 0;
+    }
+    .stack{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .download{
+        text-align: center;
+        margin-top: -20px;
+    }
+    .contact{
+        padding-bottom: 10px;
+    }
+    .social h2{
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+    footer .contact, footer .social{
+        padding-left: 0px;
+    }
+}
+* {
+      box-sizing: border-box;
+    }
+
+    form {
+      background-color: #909187;
+      margin-top: -50px;
+      margin-bottom: 30px ;
+      margin-left: 80px;
+      padding: 20px;
+      max-width: 1072px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+    @media screen and (max-width: 600px) {
+      form {
+        margin: 10px;
+      }
+    }

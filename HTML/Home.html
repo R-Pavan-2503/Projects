@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body,html{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    @font-face {
+    font-family: 'peste_trialregular';
+    src: url('pestetrial-regular-webfont.woff2') format('woff2'),
+         url('pestetrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+    h1{
+        color: azure;
+        align-content: center;
+        font-family: "peste_trialregular";
+        font-size: 24ch;
+        text-align: center;
+
+    }
+    .section_top{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        background: no-repeat;
+        background-size:100%;
+        animation: slide 5s ease-in;
+        animation-iteration-count: 1;
+        background-image: url("BackDrop.png");
+    }
+    .content{
+        position: absolute;
+        font-size: 5ch;
+        color: azure;
+        text-align: center;
+    }
+    footer{
+        background-image: url("Bgpic.jpg");
+        background-size: cover;
+    }
+
+    .Jupiter,.Earth,.Mercury{
+        float: left;
+        width: 33.33%;
+
+    }
+    .Mars,.Venus,.Saturn{
+        float: left;
+        width: 33.33%;
+    }
+    .Uranus,.Neptune,.earths-moon{
+        float: left;
+        width: 33.33%;
+    }
+    h2{
+        color: azure;
+        text-align: center;
+        font-size: 12ch;
+    }
+    @keyframes slide {
+        0%{
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEUDAwMXGIH6AAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC") ;
+        }
+        100%{
+            background-image: url("BackDrop.png");
+        }
+        
+    }
+
+</style>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Solar System</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="section_top">
+        
+    <h1>SOLAR SYSTEM</h1> 
+        <div class="content">
+    <br>
+    <br>
+    <br>
+    <div>The solar system is the collection of eight planets, along with numerous dwarf planets, moons, asteroids, and comets, that orbit around the Sun. It formed approximately 4.6 billion years ago and is located in the Milky Way galaxy. The eight planets, in order from the Sun, are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.</div>
+        </div>
+    </div>
+    <footer id='site_footer'>
+        <section class='upper_footer'>
+            <section class='planet_teaser module'>
+                <header><h2>More Destination's</h2></header>
+                <div class='grid_layout'>
+                    <section>
+                        <div class='planets' id='planets_slick_slider_3slqocvx'>
+                            <div class="row1">
+                            <div class='Jupiter'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/planets/jupiter/overview/'target=”_blank”>
+                                        <div class='rollover_description'>
+                                        </div>
+                                        <img alt='Jupiter   ' class='img-lazy' data-lazy='' src='jupiter_new.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/planets/jupiter/overview/'target=”_blank”>
+    </a>
+                                </div>
+                            </div>
+                            <div class='Earth'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/planets/earth/overview/'target=”_blank”>
+                                        <div class='rollover_description'>
+                                        </div>
+                                        <img alt='Earth     ' class='img-lazy' data-lazy='/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--136f8c33225179bf6735b3ee01c740d5f7a3f09d/earth.png?disposition=attachment' src='earth.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/planets/earth/overview/'target=”_blank”>
+    </a>
+                                </div>
+                            </div>
+                            <div class='Mercury'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/planets/mercury/overview/'target=”_blank”>
+                                        <div class='rollover_description'>
+                                        </div>
+                                        <img alt='Mercury   ' class='img-lazy' data-lazy='/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajVWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b576734970cc9a1091dde94ce82e5be09895c8c8/mercury_new.png?disposition=attachment' src='mercury_new.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/planets/mercury/overview/'target=”_blank”>
+    </a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class='Mars'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/planets/mars/overview/'target=”_blank”>
+                                        <div class='rollover_description'>
+                                        </div>
+                                        <img alt='Mars      ' class='img-lazy' data-lazy='/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajlWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--af50b76407394da0c3fe9f9c039b4039edc3a665/mars.png?disposition=attachment' src='mars.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/planets/mars/overview/'target=”_blank”>
+    </a>
+                                </div>
+                            </div>
+                            <div class='Venus'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/planets/venus/overview/'target=”_blank”>
+                                        <div class='rollover_description'>
+                                        </div> 
+                                        <img alt='Venus     ' class='img-lazy' data-lazy='/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa3hWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8872f6bbc7a9977c508c7dd614efa2ee85a49736/venus_jg.png?disposition=attachment' src='venus_jg.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/planets/venus/overview/'target=”_blank”>
+    </a>
+                                </div>
+                            </div>
+                            <div class='Saturn'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/planets/saturn/overview/'target=”_blank”>
+                                        <div class='rollover_description'>
+                                        </div>
+                                        <img alt='Saturn    ' class='img-lazy' data-lazy='/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c1fdee45ea165ad2943d52ff73ba79b0f456b5f5/saturn.png?disposition=attachment' src='saturn.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/planets/saturn/overview/'target=”_blank”>
+    </a>
+                                </div>
+                            </div>
+                            <div class='Uranus'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/planets/uranus/overview/'target=”_blank”>
+                                        <div class='rollover_description'>
+                                        </div> 
+                                        <img alt='Uranus    ' class='img-lazy' data-lazy='/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazVWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--39ff029041ce1e4f02aade2edfecf44ae1ff62f5/uranus.png?disposition=attachment' src='uranus.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/planets/uranus/overview/'target=”_blank”>
+    </a>
+                                </div>
+                            </div>
+                            <div class='Neptune'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/planets/neptune/overview/'target=”_blank”>
+                                        <div class='rollover_description'>
+                                        </div> 
+                                        <img alt='Neptune   ' class='img-lazy' data-lazy='/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazlWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ecbf2e349b0aacd9b956e8c0b396f891aa7877fb/neptune.png?disposition=attachment' src='neptune.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/planets/neptune/overview/'target=”_blank”>
+    </a>
+                                </div>
+                            </div>
+                            <div class='earths-moon'>
+                                <div class='image_and_description_container'>
+                                    <a href='https://solarsystem.nasa.gov/moons/earths-moon/overview/'target="_blank">
+                                        <div class='rollover_description'>
+                                        </div>  
+                                        <img alt='Earth&#39;s Moon' class='img-lazy' data-lazy='/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbEJWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d97d6c05b9a411776c664502255d8b6d8ba93128/earth_moon.png?disposition=attachment' src='earth_moon.png'>
+                                    </a>
+                                </div>
+                                <div class='content_title'>
+                                    <a href='https://solarsystem.nasa.gov/moons/earths-moon/overview'>
+    </a>
+                                </div>
+                            </div>
+                            <div class='grid_layout'>
+                                <div class='slick-nav_container'>
+                                    <div class='slick-nav'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </section>
+</body>
+<footer style="color: azure;font-family:URW Chancery L;">Made By Cyanido</footer>
+</html>

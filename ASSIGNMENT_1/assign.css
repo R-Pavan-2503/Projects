@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+}
+.header{
+  display: flex;
+  margin: 0;
+  background-color: yellow;
+  justify-content: space-around;
+}
+.left{
+  width:auto;
+}
+.logo{
+  align-items: center;
+  margin-left: 20px;
+}
+.middle{
+  width: auto;
+}
+
+.name{
+  align-items: center;
+}
+.clg_name{
+  margin: 30px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.contacts{
+  height: 70px;
+  width: 800px;
+  display: flex;
+}
+.about{
+  text-align: center;
+  padding-top: 28px;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white; 
+  width: 160px;
+  
+}
+.abt_us{
+  font-size: small;
+}
+.courses{
+  text-align: center;
+  padding-top: 28px;
+  width: auto;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  width: 160px;
+}
+select{
+  width: 80px;
+}
+.email{
+  border-top: 3px solid white;
+  border-right: 3px solid white; 
+  padding-top: 28px;
+  text-align: center;
+  width:auto;
+  width: 160px;
+}
+.cnt_us{
+  font-size: small;
+}
+.placements{
+  border-top: 3px solid white;
+  text-align: center;
+  width:auto;
+  padding-top: 28px;
+  width: 160px;
+}
+.plc_us{
+  font-size: small;
+}
+.sports{
+  border-top: 3px solid white;
+  border-right: 3px solid white; 
+  border-left: 3px solid white; 
+  text-align: center;
+  width:auto;
+  padding-top: 28px;
+  width: 160px;
+}
+.spr_us{
+  font-size: small;
+}
+.right{
+  background-color: yellow;
+  width:300px;
+}
