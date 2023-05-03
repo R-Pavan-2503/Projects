@@ -10,13 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <title>weather app</title>
   <link rel="stylesheet" href="weather.css">
-  <script src="weather.js"></script>
+  <script src="weather.js" defer></script>
 </head>
 
 <body>
   <div class="card">
     <div class="search">
-      <input type="text" class="serach-bar" placeholder="search">
+      <input type="text" class="search-bar" placeholder="search">
       <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
           width="1.5em" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -25,10 +25,12 @@
         </svg></button>
     </div>
     <div class="weather">
-      <h1 class="city"> weather in Denver</h2>
+      <h1 class="city"> Weather in Denver</h2>
       <h1 class="temp">51°c</h1>
-      <img class="icon" src="" alt="">
-      <div class="description">cloudy</div>
+      <div class="flex">
+        <img class="icon" src="http://openweathermap.org/img/wn/04d.png" alt="">
+        <div class="description">cloudy</div>
+      </div>
       <div class="humidity">humidity: 60%</div>
       <div class="wind"> wind speed: 0.2 km/hr</div>
     </div>
