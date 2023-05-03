@@ -7,6 +7,7 @@ body{
   margin: 0;
   background:  rgb(36, 35, 35);
   background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  font-size: 120%; 
 }
 .card{
   background: #000000d0;
@@ -29,8 +30,10 @@ button{
   height: 45px;
   width: 45px;
   outline: none;
+  background: #7c7c7c2b;
+  color: white;
 }
-.serach-bar{
+input.serach-bar{
   border: none;
   outline: none;
   padding: 0.5em 1em;
@@ -39,4 +42,10 @@ button{
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size:120%;
+  width: calc(100%-100px) ;
+}
+button:hover{
+  background: #7c7c7c6b;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
