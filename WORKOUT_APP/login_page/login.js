@@ -41,5 +41,5 @@ function passwordValidation(passwordInput) {
 }
 function alertmsg(){
     window.alert("Registered");
-    window.location.href="index.html"
+    window.location.href="index.html";
 }
